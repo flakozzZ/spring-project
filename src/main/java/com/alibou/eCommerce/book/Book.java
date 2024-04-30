@@ -31,6 +31,10 @@ public class Book {
     private String author;
     private String isbn;
 
+
+    @Column(columnDefinition = "LONGBLOB")
+    private byte[] imageData;
+
     @CreatedDate
     @Column(
             nullable = false,

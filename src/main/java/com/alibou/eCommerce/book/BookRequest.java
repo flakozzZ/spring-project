@@ -12,4 +12,5 @@ public class BookRequest {
     private Integer id;
     private String author;
     private String isbn;
+    private byte[] imageData;
 }
